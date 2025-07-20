@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <!-- Light green circular background -->
+  <circle cx="32" cy="32" r="30" fill="#90ee90"></circle> 
+
+  <!-- "3WD" main text -->
+  <text x="32" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#000" font-family="Arial">3WD</text>
+
+  <!-- "software" subtext -->
+  <text x="32" y="48" text-anchor="middle" font-size="10" fill="#000" font-family="Arial">software</text>
+</svg>

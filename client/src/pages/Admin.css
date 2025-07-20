@@ -1,0 +1,70 @@
+.addservices{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.addservices input{
+ padding: 10px;
+    
+}
+.addservices textarea{
+ padding: 100px;
+    
+}
+
+.blogs-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.blog-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.blog-card .media {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.blog-card button {
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+
+.adminpanel{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.a{
+  width: 33vw;
+    border: 2px solid black;
+}
+.b{
+  width: 33vw;
+    border: 2px solid black;
+}
+.c{
+  width: 33vw;
+    border: 2px solid black;
+}
+
+
+.service-cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

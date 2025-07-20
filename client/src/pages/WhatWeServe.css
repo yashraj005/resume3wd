@@ -1,0 +1,155 @@
+*{
+  /* color: ; */
+}
+
+
+
+.what-we-serve-container {
+  background-color: #aff8af; /* light green theme */
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Generic Section Styling */
+.section {
+  margin-bottom: 60px;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Section Headings */
+.section h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 16px;
+}
+
+/* Paragraphs */
+.section p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 16px;
+  width: 80%;
+  text-align: center;
+}
+
+/* Unordered Lists */
+.section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.section ul li {
+  font-size: 17px;
+  color: #444;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+/* Media Section (screenshots/images) */
+.media-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.media-section img {
+  width: 240px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* ERP Layout */
+.erp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.erp img {
+  height: 400px;
+  width: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.erp div {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* App Links */
+.app-links {
+  margin-top: 12px;
+}
+
+a {
+  color: #006600;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ERP Cycle Image */
+.erpcycle {
+  width: 500px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+/* Testimonial Styling */
+.testimonials {
+  font-style: italic;
+  background: #eaffea;
+  padding: 10px 16px;
+  border-left: 5px solid #00a000;
+  border-radius: 6px;
+  color: #2d5f2d;
+  margin-top: 12px;
+  width: 80%;
+  text-align: center;
+}
+
+/* Mill Image */
+.millfromheight {
+  height: 400px;
+  width: auto;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+/* Client Banner Image */
+.clients-banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.clients-banner img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+}
+
+img{
+  height: 500px;
+  width: auto;
+}
